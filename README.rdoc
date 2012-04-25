@@ -9,3 +9,6 @@ Quick sample app using:
 - HighCharts for charts
 
 - Rake task for importing CSV data
+
+
+![Screen 1](https://github.com/randym/axlsx/raw/master/examples/sample.png)
