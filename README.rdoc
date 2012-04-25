@@ -9,3 +9,4 @@ Quick sample app using:
 - HighCharts for charts
 
 - Rake task for importing CSV data
+
