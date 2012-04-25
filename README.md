@@ -1,4 +1,5 @@
-== POC Rails 3.2.3, Devise, CanCan, Twitter Bootstrap, HighCharts
+POC Rails 3.2.3, Devise, CanCan, Twitter Bootstrap, HighCharts
+====================================
 
 Quick sample app using:
 
