@@ -1,0 +1,23 @@
+<h1>Listing data_topics</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @data_topics.each do |data_topic| %>
+  <tr>
+    <td><%= data_topic.name %></td>
+    <td><%= link_to 'Show', data_topic %></td>
+    <td><%= link_to 'Edit', edit_data_topic_path(data_topic) %></td>
+    <td><%= link_to 'Destroy', data_topic, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Data topic', new_data_topic_path %>
